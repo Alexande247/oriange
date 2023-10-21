@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="stop_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停止程序B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="run_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>执行程序B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reset_1">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>220</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重置程序A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_1">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>220</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停止程序A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reset_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重置程序B</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="read">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>470</y>
+      <width>661</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="run_1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>执行程序A</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="run_reboot">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>启动机器人</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="connect_reboot">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>连接机器人</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="input_v">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>50</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_v">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>50</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>速度设置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clean_err">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>380</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>错误清除</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="read_err">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>300</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>错误读取</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="read_belt">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>370</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>读取皮带速度</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="read_gripper">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>270</y>
+      <width>120</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>读取手爪状态</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="run_cylinder">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>380</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>气缸作动</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reset_cylinder">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>380</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>气缸复位</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>input_v</tabstop>
+  <tabstop>run_2</tabstop>
+  <tabstop>reset_2</tabstop>
+  <tabstop>stop_2</tabstop>
+  <tabstop>read</tabstop>
+  <tabstop>set_v</tabstop>
+  <tabstop>connect_reboot</tabstop>
+  <tabstop>stop_1</tabstop>
+  <tabstop>reset_1</tabstop>
+  <tabstop>run_reboot</tabstop>
+  <tabstop>run_1</tabstop>
+  <tabstop>clean_err</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
